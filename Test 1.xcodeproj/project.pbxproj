@@ -16,6 +16,7 @@
 		253C85E7228D841200F3CF99 /* continueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C85E6228D841200F3CF99 /* continueViewController.swift */; };
 		253C85EA228D842B00F3CF99 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C85E9228D842B00F3CF99 /* loginViewController.swift */; };
 		253C85EC228D843700F3CF99 /* finalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C85EB228D843700F3CF99 /* finalViewController.swift */; };
+		253C85EE228EB0B000F3CF99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 253C85ED228EB0B000F3CF99 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		253C85E6228D841200F3CF99 /* continueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continueViewController.swift; sourceTree = "<group>"; };
 		253C85E9228D842B00F3CF99 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		253C85EB228D843700F3CF99 /* finalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewController.swift; sourceTree = "<group>"; };
+		253C85ED228EB0B000F3CF99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		253C85C2228D7F4000F3CF99 = {
 			isa = PBXGroup;
 			children = (
+				253C85ED228EB0B000F3CF99 /* Default-568h@2x.png */,
 				253C85CD228D7F4000F3CF99 /* Test 1 */,
 				253C85CC228D7F4000F3CF99 /* Products */,
 			);
@@ -137,6 +140,7 @@
 				253C85D9228D7F4000F3CF99 /* LaunchScreen.storyboard in Resources */,
 				253C85D6228D7F4000F3CF99 /* Assets.xcassets in Resources */,
 				253C85E1228D806600F3CF99 /* Onboarding.storyboard in Resources */,
+				253C85EE228EB0B000F3CF99 /* Default-568h@2x.png in Resources */,
 				253C85D4228D7F4000F3CF99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
