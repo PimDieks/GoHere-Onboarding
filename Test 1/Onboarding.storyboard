@@ -95,7 +95,6 @@ your friends</string>
         <!--Login View Controller-->
         <scene sceneID="qeb-tv-Jdo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IHt-Bc-FR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalTransitionStyle="crossDissolve" id="zya-I6-M69" customClass="loginViewController" customModule="Test_1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IRM-3n-iNz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -132,7 +131,7 @@ your friends</string>
                                 <rect key="frame" x="40" y="224" width="334" height="16"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CH2-5X-VWq">
-                                <rect key="frame" x="50" y="270" width="314" height="143"/>
+                                <rect key="frame" x="20" y="270" width="374" height="143"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Login to GoHere and 
@@ -153,14 +152,14 @@ recommendation</string>
                             <constraint firstItem="C0E-S1-jqd" firstAttribute="trailing" secondItem="zFy-yW-i33" secondAttribute="trailing" id="5Rt-90-37s"/>
                             <constraint firstItem="IK8-AI-tfQ" firstAttribute="leading" secondItem="zFy-yW-i33" secondAttribute="leading" constant="20" id="FmK-Sl-iii"/>
                             <constraint firstItem="nZA-4r-gQm" firstAttribute="top" secondItem="zFy-yW-i33" secondAttribute="top" constant="180" id="H91-v6-wI6"/>
-                            <constraint firstItem="CH2-5X-VWq" firstAttribute="leading" secondItem="zFy-yW-i33" secondAttribute="leading" constant="50" id="KRt-j9-Xkd"/>
+                            <constraint firstItem="CH2-5X-VWq" firstAttribute="leading" secondItem="zFy-yW-i33" secondAttribute="leading" constant="20" id="KRt-j9-Xkd"/>
                             <constraint firstItem="nZA-4r-gQm" firstAttribute="leading" secondItem="zFy-yW-i33" secondAttribute="leading" constant="40" id="M0m-YG-TS2"/>
                             <constraint firstAttribute="bottom" secondItem="C0E-S1-jqd" secondAttribute="bottom" id="N5Y-RG-PLM"/>
                             <constraint firstItem="zFy-yW-i33" firstAttribute="trailing" secondItem="IK8-AI-tfQ" secondAttribute="trailing" constant="20" id="QWO-Wm-LxX"/>
                             <constraint firstItem="zFy-yW-i33" firstAttribute="bottom" secondItem="IK8-AI-tfQ" secondAttribute="bottom" constant="40" id="aFt-MF-rMT"/>
                             <constraint firstItem="C0E-S1-jqd" firstAttribute="leading" secondItem="zFy-yW-i33" secondAttribute="leading" id="bde-m2-5NS"/>
                             <constraint firstItem="C0E-S1-jqd" firstAttribute="top" secondItem="IRM-3n-iNz" secondAttribute="top" id="sTw-Ss-JdB"/>
-                            <constraint firstItem="zFy-yW-i33" firstAttribute="trailing" secondItem="CH2-5X-VWq" secondAttribute="trailing" constant="50" id="sjd-hQ-MxG"/>
+                            <constraint firstItem="zFy-yW-i33" firstAttribute="trailing" secondItem="CH2-5X-VWq" secondAttribute="trailing" constant="20" id="sjd-hQ-MxG"/>
                             <constraint firstItem="zFy-yW-i33" firstAttribute="trailing" secondItem="nZA-4r-gQm" secondAttribute="trailing" constant="40" id="vuP-9f-d9t"/>
                             <constraint firstItem="CH2-5X-VWq" firstAttribute="top" secondItem="nZA-4r-gQm" secondAttribute="bottom" constant="30" id="w3x-sh-fsZ"/>
                             <constraint firstItem="IK8-AI-tfQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="CH2-5X-VWq" secondAttribute="bottom" constant="16" id="yJ7-Ni-0NX"/>
@@ -171,6 +170,7 @@ recommendation</string>
                         <segue destination="vZc-RM-ISn" kind="show" identifier="loginToFinal" id="2c7-3d-jeQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHt-Bc-FR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="728" y="161"/>
         </scene>
