@@ -13,7 +13,7 @@
         <!--Continue View Controller-->
         <scene sceneID="8UV-Be-j9f">
             <objects>
-                <viewController storyboardIdentifier="continueStoryboard" modalTransitionStyle="crossDissolve" id="Yb3-ke-7QH" customClass="continueViewController" customModule="Test_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="continueStoryboard" modalTransitionStyle="crossDissolve" id="Yb3-ke-7QH" customClass="continueViewController" customModule="Prototype" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kP3-uf-Peg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@ your friends</string>
         <!--Login View Controller-->
         <scene sceneID="qeb-tv-Jdo">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="zya-I6-M69" customClass="loginViewController" customModule="Test_1" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="zya-I6-M69" customClass="loginViewController" customModule="Prototype" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IRM-3n-iNz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +177,7 @@ recommendation</string>
         <!--Final View Controller-->
         <scene sceneID="zDS-3P-xUN">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="vZc-RM-ISn" customClass="finalViewController" customModule="Test_1" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="vZc-RM-ISn" customClass="finalViewController" customModule="Prototype" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AqC-dy-Fwm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
